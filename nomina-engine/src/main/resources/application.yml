@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: nominaEngine
+
+datasources:
+  default:
+    #url: jdbc:postgresql://119.8.3.41:5432/apyn?noAccessToProcedureBodies=true
+    #driverClassName: org.postgresql.Driver
+    #username: apyn
+    #password: s1st3m4d3n0min4
+
+    url: jdbc:postgresql://localhost:5432/cosmonaut?noAccessToProcedureBodies=true
+    driverClassName: org.postgresql.Driver
+    username: cosmonaut
+    password: c0ns0l1d4MX_2021

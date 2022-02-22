@@ -1,0 +1,12 @@
+pluginManagement {
+	repositories {
+		maven{
+			url "https://nexus.wintermute.network/nexus/repository/libs-release/"
+		}
+		maven{
+			url "https://nexus.wintermute.network/nexus/repository/libs-snapshot/"
+		}
+		gradlePluginPortal()
+	}
+}
+rootProject.name="orquestador"
